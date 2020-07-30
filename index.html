@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Preview</title>
+    <link rel="stylesheet" href="main.css">
+    <script defer src="./app.js"></script>
+</head>
+<body>
+    <div class="left">
+        <form>
+            <label for="full-border">full border</label>
+            <input type="text" name="full-border" id="full-border">
+            <label for="left-top">top-left-border</label>
+            <input type="text" name="left-top" class="input" id="left-top">
+            <label for="right-top">top-right-border</label>
+            <input type="text" name="right-top" class="input" id="right-top">
+            <label for="bottom-left">bottom-left-border</label>
+            <input type="text" name="left-bottom" class="input" id="left-bottom">
+            <label for="bottom-right">bottom-right-border</label>
+            <input type="text" name="right-bottom" class="input" id="right-bottom">
+            <button type="submit" id="button">Check</button>
+        </form>
+    </div>
+    <div class="right">
+        <div class="container">
+            <h1>Look at this after hitting check</h1>
+            <div class="border" id="border">
+                <h3 id="display"></h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
